@@ -2947,10 +2947,20 @@ p-finally@^1.0.0:
   resolved "https://registry.yarnpkg.com/p-finally/-/p-finally-1.0.0.tgz#3fbcfb15b899a44123b34b6dcc18b724336a2cae"
   integrity sha1-P7z7FbiZpEEjs0ttzBi3JDNqLK4=
 
-p-queue@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/p-queue/-/p-queue-1.2.0.tgz#639cb8b07270c15b71d7a6446a8e30414f3c96d1"
-  integrity sha1-Y5y4sHJwwVtx16ZEao4wQU88ltE=
+p-queue@^6.3.0:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/p-queue/-/p-queue-6.3.0.tgz#19bfa4485db7e6a0c135049ff6716375880d9c3a"
+  integrity sha512-fg5dJlFpd5+3CgG3/0ogpVZUeJbjiyXFg0nu53hrOYsybqSiDyxyOpad0Rm6tAiGjgztAwkyvhlYHC53OiAJOA==
+  dependencies:
+    eventemitter3 "^4.0.0"
+    p-timeout "^3.1.0"
+
+p-timeout@^3.1.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/p-timeout/-/p-timeout-3.2.0.tgz#c7e17abc971d2a7962ef83626b35d635acf23dfe"
+  integrity sha512-rhIwUycgwwKcP9yTOOFK/AKsAopjjCakVqLHePO3CC6Mir1Z99xT+R63jZxAT5lFZLa2inS5h+ZS2GvR99/FBg==
+  dependencies:
+    p-finally "^1.0.0"
 
 pako@~1.0.5:
   version "1.0.11"
